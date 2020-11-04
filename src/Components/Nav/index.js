@@ -6,6 +6,11 @@ function Nav() {
     <ul>
       <li>
         <Link to='/' className={location.pathname === '/' ? 'nav-link active' : 'nav-link'}>
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link to='/about' className={location.pathname === '/about' ? 'nav-link active' : 'nav-link'}>
           About
         </Link>
       </li>

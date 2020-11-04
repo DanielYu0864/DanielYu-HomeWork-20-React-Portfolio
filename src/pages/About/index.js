@@ -4,7 +4,7 @@ import Intro from '../../Components/Intro'
 function About() {
   return (
     <div>
-      <Intro/>
+      About
     </div>
   )
 }
