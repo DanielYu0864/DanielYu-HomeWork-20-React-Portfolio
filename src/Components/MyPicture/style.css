@@ -1,0 +1,10 @@
+.my-p {
+  height: 50vh;
+  width: auto;
+
+}
+.my-p img {
+  border-radius: 50%;
+  height: 100%;
+  width: auto;
+}

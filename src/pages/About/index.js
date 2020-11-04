@@ -1,10 +1,12 @@
 import React from 'react'
-import Intro from '../../Components/Intro'
+import AboutMe from '../../Components/AboutMe'
+import MyPicture from '../../Components/MyPicture'
 
 function About() {
   return (
-    <div>
-      About
+    <div className='about'>
+      <MyPicture/>
+      <AboutMe/>
     </div>
   )
 }

@@ -7,7 +7,7 @@ import Nav from './Components/Nav';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import Intro from './Components/Intro';
+import Intro from './pages/Intro';
 
 function App() {
   return (
