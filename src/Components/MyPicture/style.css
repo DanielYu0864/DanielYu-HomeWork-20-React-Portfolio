@@ -1,7 +1,10 @@
 .my-p {
   height: 50vh;
-  width: auto;
-
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  display: flow-root;
+  top: 30px;
 }
 .my-p img {
   border-radius: 50%;

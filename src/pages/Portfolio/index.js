@@ -1,26 +1,58 @@
 import React, { useState } from 'react'
 import ProjectSreenshot from '../../Components/ProjectScreenhot';
 import project from './projectArray';
-import sk8tool from'./img/sk8tool.jpg';
-import EMS from './img/EMS.png'
+import './style.css'
 
 function Portfolio() {
-
+  console.log(project);
   return (
     <div>
-      Portfolio
+      <div className='project'>
+        <h2>Project</h2>
       {
-        project.map(e => {
+        project[0].Project.map(e => {
           return (
             <ul className={e.name}>
-              <li>Name: {e.name}</li>
-              <ProjectSreenshot value={e.image}/>
-              <li>Descripsion: {e.descripsion}</li>
+              <li className='name'>{e.name}</li>
+              <a href={e.url}><ProjectSreenshot value={e.image}/></a>
+              <li className='descripsion'>{e.descripsion}</li>
               <li>Language: {e.language}</li>
             </ul>
           )
         })
       }
+      </div>
+      <div className='backend'>
+        <h2>Backend</h2>
+      {
+        project[1].Backend.map(e => {
+          return (
+            <ul className={e.name}>
+              <li className='name'>{e.name}</li>
+              <a href={e.url}><ProjectSreenshot value={e.image}/></a>
+              <li className='descripsion'>{e.descripsion}</li>
+              <li>Language: {e.language}</li>
+            </ul>
+          )
+        })
+      }
+      </div>
+      <div className='frontend'>
+        <h2>Frontend</h2>
+      {
+        project[2].Frontend.map(e => {
+          return (
+            <ul className={e.name}>
+              <li className='name'>{e.name}</li>
+              <a href={e.url}><ProjectSreenshot value={e.image}/></a>
+              <li className='descripsion'>{e.descripsion}</li>
+              <li>Language: {e.language}</li>
+            </ul>
+          )
+        })
+      }
+      </div>
+
 
     </div>
   )

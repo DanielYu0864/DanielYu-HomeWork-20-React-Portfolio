@@ -12,16 +12,16 @@ import Intro from './pages/Intro';
 function App() {
   return (
     <div className="App">
+      <Header/>
 
       <Router>
-        <Header/>
         <Nav/>
         <Route exact path='/' render={() =><Intro/>} />
         <Route exact path='/about' render={() =><About/>} />
         <Route exact path='/portfolio' render={() =><Portfolio/>} />
         <Route exact path='/contact' render={() =><Contact/>} />
       </Router>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

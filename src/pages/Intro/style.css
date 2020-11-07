@@ -1,0 +1,26 @@
+.intro {
+  height: 100vh;
+  width: auto;
+  background-image: url(../../img/20200229_164836.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.hp {
+  position: relative;
+  display: inline-block;
+  top: 6vw;
+}
+
+.hp h1 {
+  font-size: 100px;
+  color: #d5f8f2;
+  text-align: center;
+}
+
+.hp p {
+  font-size: 18px;
+  text-align: center;
+  color: #646464;
+  position: relative;
+  top: -45px;
+}

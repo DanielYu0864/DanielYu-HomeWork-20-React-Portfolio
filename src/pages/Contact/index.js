@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './style.css';
 
 function Contact() {
   return (
-    <div>
+    <div className='contact-me'>
       <ul>
         Contact Me:
           <p>Phone: <a href="tel:+14256254073">425-625-4073</a></p>

@@ -1,0 +1,12 @@
+.contact-me {
+  text-align: center;
+  border: 2px solid rgb(24, 37, 37);
+  position: relative;
+  top: 20vh;
+  margin: auto;
+  width: 95vw;
+}
+
+.contact-me a {
+  color: rgb(195, 232, 235);
+}

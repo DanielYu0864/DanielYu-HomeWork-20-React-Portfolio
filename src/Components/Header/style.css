@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  position: absolute;
+  margin-left: 10px;
+}

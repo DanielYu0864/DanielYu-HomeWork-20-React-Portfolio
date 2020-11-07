@@ -1,0 +1,15 @@
+.media{
+  position: relative;
+  top: 38vh;
+}
+
+.media img {
+  opacity: 0.8;
+  padding-right: 10px;
+  padding-left: 10px;
+  filter: invert(5);
+}
+
+.media img:hover {
+  opacity: 1;
+}

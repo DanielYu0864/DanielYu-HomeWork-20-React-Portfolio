@@ -1,10 +1,8 @@
 import React from 'react'
-
+import './style.css'
 function Header() {
   return (
-    <div>
-      <h1>Header</h1>
-    </div>
+      <h1 className='header'>Daniel Yu</h1>
   )
 }
 
