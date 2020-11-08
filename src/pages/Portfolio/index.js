@@ -6,13 +6,13 @@ import './style.css'
 function Portfolio() {
   console.log(project);
   return (
-    <div>
-      <div className='project'>
+    <div className='portfolio-div'>
+      <div className='project col-5'>
         <h2>Project</h2>
       {
         project[0].Project.map(e => {
           return (
-            <ul className={e.name}>
+            <ul className={e.name + 'col-8'}>
               <li className='name'>{e.name}</li>
               <a href={e.url}><ProjectSreenshot value={e.image}/></a>
               <li className='descripsion'>{e.descripsion}</li>
@@ -22,7 +22,7 @@ function Portfolio() {
         })
       }
       </div>
-      <div className='backend'>
+      <div className='backend col-5'>
         <h2>Backend</h2>
       {
         project[1].Backend.map(e => {
@@ -37,7 +37,7 @@ function Portfolio() {
         })
       }
       </div>
-      <div className='frontend'>
+      <div className='frontend col-8'>
         <h2>Frontend</h2>
       {
         project[2].Frontend.map(e => {

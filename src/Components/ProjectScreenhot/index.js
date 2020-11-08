@@ -9,17 +9,17 @@ function ProjectSreenshot({value}) {
   const renderImg = (img) => {
     switch (img) {
       case './img/sk8tool.jpg':
-        return <img src={sk8tool}/>;
+        return <img className='col-10' src={sk8tool}/>;
       case './img/EMS.png':
-        return <img src={EMS}/>;
+        return <img className='col-10' src={EMS}/>;
       case './img/SkateFinder.png':
-        return <img src={SkateFinder}/>;
+        return <img className='col-10' src={SkateFinder}/>;
       case './img/GoodReadmeGenerator.gif':
-        return <img src={ReadeGenerator}/>;
+        return <img className='col-10' src={ReadeGenerator}/>;
       case './img/UserDirectory.png':
-        return <img src={UserDirectory}/>;
+        return <img className='col-10' src={UserDirectory}/>;
       case './img/WeatherDashboard.png':
-        return <img src={WeatherDashboard}/>;
+        return <img className='col-10' src={WeatherDashboard}/>;
 
     }
   }
