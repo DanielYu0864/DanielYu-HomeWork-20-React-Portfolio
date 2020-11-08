@@ -1,0 +1,32 @@
+footer {
+  text-align: right;
+}
+
+.go-top {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -12px;
+  left: -4vw;
+}
+
+.go-top a {
+  color: #04ffa6 !important;
+}
+
+.go-top a::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color:#04ffa6;
+
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+.go-top a:hover::before {
+  width: 35px;
+}

@@ -1,9 +1,9 @@
 import React from 'react'
-
-function Footer() {
+import './style.css'
+function Footer({value}) {
   return (
-      <footer>
-        Footer
+      <footer className='go-top'>
+        <a href="#header">{value}</a>
       </footer>
   )
 }

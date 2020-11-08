@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react';
+import Footer from '../../Components/Footer';
 import ProjectSreenshot from '../../Components/ProjectScreenhot';
 import project from './projectArray';
 import './style.css'
@@ -53,7 +54,7 @@ function Portfolio() {
       }
       </div>
 
-
+      <Footer value='TOP'/>
     </div>
   )
 }
