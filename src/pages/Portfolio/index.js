@@ -13,7 +13,7 @@ function Portfolio() {
       {
         project[0].Project.map(e => {
           return (
-            <ul className={e.name + 'col-8'}>
+            <ul key={e.name} className={e.name + 'col-8'}>
               <li className='name'>{e.name}</li>
               <a href={e.url}><ProjectSreenshot value={e.image}/></a>
               <li className='descripsion'>{e.descripsion}</li>
@@ -28,7 +28,7 @@ function Portfolio() {
       {
         project[1].Backend.map(e => {
           return (
-            <ul className={e.name}>
+            <ul key={e.name} className={e.name}>
               <li className='name'>{e.name}</li>
               <a href={e.url}><ProjectSreenshot value={e.image}/></a>
               <li className='descripsion'>{e.descripsion}</li>
@@ -43,7 +43,7 @@ function Portfolio() {
       {
         project[2].Frontend.map(e => {
           return (
-            <ul className={e.name}>
+            <ul key={e.name} className={e.name}>
               <li className='name'>{e.name}</li>
               <a href={e.url}><ProjectSreenshot value={e.image}/></a>
               <li className='descripsion'>{e.descripsion}</li>

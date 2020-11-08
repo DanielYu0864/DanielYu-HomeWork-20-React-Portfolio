@@ -5,7 +5,7 @@ import './style.css';
 function MyPicture() {
   return (
     <div className='my-p'>
-      <img src={image}/>
+      <img  alt='' src={image}/>
     </div>
   )
 }
