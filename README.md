@@ -1,5 +1,32 @@
 # Unit 20 React Homework: React Portfolio
 
+### This portfolio is built on React
+
+* Home
+
+![Home](./screenshot/home.png)
+
+* About
+
+![about](./screenshot/about.png)
+
+* Portfolio
+
+![portfolio](./screenshot/portfolio.png)
+
+* Contact
+
+![contact](./screenshot/contact.png)
+
+* Header
+
+![header](./screenshot/header.png)
+
+* Footer
+
+![footer](./screenshot/footer2.jpg)
+
+
 Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
 
 If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
@@ -12,7 +39,7 @@ If you are opting out of career services, this is *still a required assignment*.
 
 * A `Header` component that appears on multiple pages
 
-* A single `Project` component that will be used multiple times on a single page 
+* A single `Project` component that will be used multiple times on a single page
 
 * Navigation with React Router, dynamic rendering, or another third part router
 
@@ -73,7 +100,7 @@ the default bootstrap theme or an unstyled HTML site. You may we
 
 * Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
-* If you want to go above and beyond, try using animations and react component libraries. Note 
+* If you want to go above and beyond, try using animations and react component libraries. Note
 that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
 
 ### React
@@ -84,14 +111,14 @@ At a minimum, your portfolio should include the following:
 
 * A `Header` component that appears on multiple pages
 
-* A single `Project` component that will be used multiple times on a single page 
+* A single `Project` component that will be used multiple times on a single page
 
 * Navigation with React Router, dynamic rendering, or another third part router
 
 * A `Footer` component that appears on multiple pages
 
 
-### Updated LinkedIn Profile 
+### Updated LinkedIn Profile
 
 Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
 
