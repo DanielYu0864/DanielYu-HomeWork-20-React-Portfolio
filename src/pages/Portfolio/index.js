@@ -16,6 +16,10 @@ function Portfolio() {
             <ul key={e.name} className={e.name + 'col-8'}>
               <li className='name'>{e.name}</li>
               <a href={e.url}><ProjectSreenshot value={e.image}/></a>
+              <li className='button'>
+              <a href={e.github}><button>GitHub</button></a>
+              <a href={e.url}><button>Home Page</button></a>
+              </li>
               <li className='descripsion'>{e.descripsion}</li>
               <li>Language: {e.language}</li>
             </ul>
@@ -30,7 +34,12 @@ function Portfolio() {
           return (
             <ul key={e.name} className={e.name}>
               <li className='name'>{e.name}</li>
-              <a href={e.url}><ProjectSreenshot value={e.image}/></a>
+              <a href={e.github}><ProjectSreenshot value={e.image}/></a>
+              <li className='button'>
+                <a href={e.github}>
+                  <button>GitHub</button>
+                </a>
+              </li>
               <li className='descripsion'>{e.descripsion}</li>
               <li>Language: {e.language}</li>
             </ul>
@@ -46,6 +55,10 @@ function Portfolio() {
             <ul key={e.name} className={e.name}>
               <li className='name'>{e.name}</li>
               <a href={e.url}><ProjectSreenshot value={e.image}/></a>
+              <li className='button'>
+              <a href={e.github}><button>GitHub</button></a>
+              <a href={e.url}><button>Home Page</button></a>
+              </li>
               <li className='descripsion'>{e.descripsion}</li>
               <li>Language: {e.language}</li>
             </ul>

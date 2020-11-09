@@ -26,6 +26,17 @@
 
 ![footer](./screenshot/footer2.jpg)
 
+## About
+* Project link: https://danielyu0864.github.io/DanielYu-HomeWork-20-React-Portfolio/
+* Project Github: https://github.com/DanielYu0864/DanielYu-HomeWork-20-React-Portfolio
+* Author: [`DanielYu0864`](https://github.com/DanielYu0864)
+
+## Questions
+*  For more question please contact me: adam741963@gmail.com
+
+
+- - -
+© 2020 - UW Coding Bootcamp Homework 20 React Portfolio User Directory by Daniel Yu
 
 Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
 

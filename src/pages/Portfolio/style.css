@@ -65,6 +65,24 @@ li {
   position: relative;
 }
 
+.button {
+  margin-bottom: 10px;
+}
+
+.button button {
+  margin: 5px;
+  font-size: 30px;
+  color: darkcyan;
+  background: cornsilk;
+  border-color: bisque;
+}
+
+.button button:hover{
+  color: bisque;
+  background: black;
+}
+
+
 .Directory {
   width: 450px;
 }
