@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header';
 import Nav from './Components/Nav';
@@ -15,10 +15,12 @@ function App() {
 
       <Router>
         <Nav/>
-        <Route exact path='/' render={() =><Intro/>} />
-        <Route exact path='/about' render={() =><About/>} />
-        <Route exact path='/portfolio' render={() =><Portfolio/>} />
-        <Route exact path='/contact' render={() =><Contact/>} />
+        <Switch>
+        <Route exact path='/' component={Intro} />
+        <Route exact path='/about' component={About} />
+        <Route exact path='/portfolio' component={Portfolio} />
+        <Route exact path='/contact' component={Contact} />
+        </Switch>
       </Router>
     </div>
   );
