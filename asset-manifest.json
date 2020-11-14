@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/DanielYu-HomeWork-20-React-Portfolio/static/css/main.a0b3b008.chunk.css",
-    "main.js": "/DanielYu-HomeWork-20-React-Portfolio/static/js/main.0660e9d0.chunk.js",
-    "main.js.map": "/DanielYu-HomeWork-20-React-Portfolio/static/js/main.0660e9d0.chunk.js.map",
+    "main.js": "/DanielYu-HomeWork-20-React-Portfolio/static/js/main.de8df9f9.chunk.js",
+    "main.js.map": "/DanielYu-HomeWork-20-React-Portfolio/static/js/main.de8df9f9.chunk.js.map",
     "runtime-main.js": "/DanielYu-HomeWork-20-React-Portfolio/static/js/runtime-main.0d201cb3.js",
     "runtime-main.js.map": "/DanielYu-HomeWork-20-React-Portfolio/static/js/runtime-main.0d201cb3.js.map",
-    "static/js/2.b8b2d53d.chunk.js": "/DanielYu-HomeWork-20-React-Portfolio/static/js/2.b8b2d53d.chunk.js",
-    "static/js/2.b8b2d53d.chunk.js.map": "/DanielYu-HomeWork-20-React-Portfolio/static/js/2.b8b2d53d.chunk.js.map",
+    "static/js/2.13c39698.chunk.js": "/DanielYu-HomeWork-20-React-Portfolio/static/js/2.13c39698.chunk.js",
+    "static/js/2.13c39698.chunk.js.map": "/DanielYu-HomeWork-20-React-Portfolio/static/js/2.13c39698.chunk.js.map",
     "static/js/3.92333adc.chunk.js": "/DanielYu-HomeWork-20-React-Portfolio/static/js/3.92333adc.chunk.js",
     "static/js/3.92333adc.chunk.js.map": "/DanielYu-HomeWork-20-React-Portfolio/static/js/3.92333adc.chunk.js.map",
     "index.html": "/DanielYu-HomeWork-20-React-Portfolio/index.html",
     "static/css/main.a0b3b008.chunk.css.map": "/DanielYu-HomeWork-20-React-Portfolio/static/css/main.a0b3b008.chunk.css.map",
-    "static/js/2.b8b2d53d.chunk.js.LICENSE.txt": "/DanielYu-HomeWork-20-React-Portfolio/static/js/2.b8b2d53d.chunk.js.LICENSE.txt",
+    "static/js/2.13c39698.chunk.js.LICENSE.txt": "/DanielYu-HomeWork-20-React-Portfolio/static/js/2.13c39698.chunk.js.LICENSE.txt",
     "static/media/style.css": "/DanielYu-HomeWork-20-React-Portfolio/static/media/20200229_164836.9d6dba6e.jpg",
     "static/media/EMS.4dbb7af0.png": "/DanielYu-HomeWork-20-React-Portfolio/static/media/EMS.4dbb7af0.png",
     "static/media/GoodReadmeGenerator.d7e650cc.gif": "/DanielYu-HomeWork-20-React-Portfolio/static/media/GoodReadmeGenerator.d7e650cc.gif",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0d201cb3.js",
-    "static/js/2.b8b2d53d.chunk.js",
+    "static/js/2.13c39698.chunk.js",
     "static/css/main.a0b3b008.chunk.css",
-    "static/js/main.0660e9d0.chunk.js"
+    "static/js/main.de8df9f9.chunk.js"
   ]
 }
